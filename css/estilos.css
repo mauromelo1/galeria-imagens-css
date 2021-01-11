@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p {
+text-align: center;
+}
+
+h1 {
+    columns: #4a87e8;;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid ;
+    color:#4A87E8;
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+}
+
+.card1 .card-image {
+    background-image: url("../imagens/img1.jpg");
+}
+
+
+.card2 .card-image {
+    background-image: url("../imagens/img2.jpg");
+}
+
+
+.card3 .card-image {
+    background-image: url("../imagens/img3.jpg");
+}
+
+
+.card4 .card-image {
+    background-image: url("../imagens/img4.jpg");
+}
+
+
+.card5 .card-image {
+    background-image: url("../imagens/img5.jpg");
+}
+
+
+.card6 .card-image {
+    background-image: url("../imagens/img6.jpg");
+}
+
+
+.card7 .card-image {
+    background-image: url("../imagens/img7.jpg");
+}
+
+
+.card8 .card-image {
+    background-image: url("../imagens/img8.jpg");
+}
+
+.btn {
+    display: block;
+    background-color: #4A87E8;
+    color: #FFF;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transform: .5s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #FFF;
+    color: #4A87E8;
+    border-color: #4A87E8;
+}
+
+.card-description {
+padding: 20px 10px;
+}
